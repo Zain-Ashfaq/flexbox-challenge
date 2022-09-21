@@ -30,3 +30,16 @@ nav {
   height: 100%;
   justify-content: flex-end;
 }
+
+#left-panel {
+  width: 67.5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card {
+  border: solid black 2px;
+  height: 25%;
+  padding: 15px;
+}
