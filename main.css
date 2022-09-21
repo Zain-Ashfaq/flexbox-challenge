@@ -103,4 +103,6 @@ p {
   display: flex;
   flex-direction: row;
   border: solid green 2px;
+  align-items: center
+  justify-content: flex-end;
 }
