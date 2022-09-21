@@ -57,7 +57,7 @@ main {
   justify-content: space-between;
 }
 
-#left-panel {
+.left-panel {
   width: 67.5%;
   display: flex;
   flex-direction: column;
@@ -70,24 +70,37 @@ main {
   padding: 15px;
 }
 
-ul {
-  margin-left: 50px;
-}
-
-li {
-  margin: 15px 0;
-}
-
 #right-panel {
   width: 27.5%;
   padding: 15px;
   border: solid black 2px;
 }
 
-#right-panel > h3 {
+.right-panel > h3 {
   margin-bottom: 10px;
 }
 
-p {
+/* p {
   text-align: justify;
+} */
+.box-centre {
+  flex-direction: row;
+
+  background: purple;
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+  border: solid blue 2px;
+}
+
+.card {
+  flex-direction: row;
+  border: solid blue 2px;
+  height: 25%;
+  padding: 15px;
+}
+p {
+  display: flex;
+  flex-direction: row;
+  border: solid green 2px;
 }
